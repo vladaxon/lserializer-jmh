@@ -1,0 +1,261 @@
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jre1.8.0_161\bin\java.exe
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ua.vladaxon.lserializerjmh.SerializerBenchmark.testJavaIO
+
+# Run progress: 0,00% complete, ETA 00:25:00
+# Fork: 1 of 5
+# Warmup Iteration   1: 100266,338 ops/s
+# Warmup Iteration   2: 109338,112 ops/s
+# Warmup Iteration   3: 111758,359 ops/s
+# Warmup Iteration   4: 113719,061 ops/s
+# Warmup Iteration   5: 113361,298 ops/s
+Iteration   1: 113670,738 ops/s
+Iteration   2: 113630,262 ops/s
+Iteration   3: 113313,501 ops/s
+Iteration   4: 113933,627 ops/s
+Iteration   5: 114044,774 ops/s
+
+# Run progress: 6,67% complete, ETA 00:23:26
+# Fork: 2 of 5
+# Warmup Iteration   1: 101147,052 ops/s
+# Warmup Iteration   2: 113488,907 ops/s
+# Warmup Iteration   3: 112510,360 ops/s
+# Warmup Iteration   4: 111384,609 ops/s
+# Warmup Iteration   5: 111522,631 ops/s
+Iteration   1: 111366,372 ops/s
+Iteration   2: 111245,658 ops/s
+Iteration   3: 111304,529 ops/s
+Iteration   4: 111368,925 ops/s
+Iteration   5: 111175,247 ops/s
+
+# Run progress: 13,33% complete, ETA 00:21:45
+# Fork: 3 of 5
+# Warmup Iteration   1: 104010,194 ops/s
+# Warmup Iteration   2: 115053,377 ops/s
+# Warmup Iteration   3: 115848,033 ops/s
+# Warmup Iteration   4: 113349,745 ops/s
+# Warmup Iteration   5: 113141,061 ops/s
+Iteration   1: 112819,455 ops/s
+Iteration   2: 111108,496 ops/s
+Iteration   3: 112679,002 ops/s
+Iteration   4: 112710,833 ops/s
+Iteration   5: 113141,077 ops/s
+
+# Run progress: 20,00% complete, ETA 00:20:05
+# Fork: 4 of 5
+# Warmup Iteration   1: 108482,544 ops/s
+# Warmup Iteration   2: 115160,528 ops/s
+# Warmup Iteration   3: 116965,046 ops/s
+# Warmup Iteration   4: 116173,268 ops/s
+# Warmup Iteration   5: 116813,255 ops/s
+Iteration   1: 117041,887 ops/s
+Iteration   2: 116299,281 ops/s
+Iteration   3: 116820,880 ops/s
+Iteration   4: 116967,481 ops/s
+Iteration   5: 116568,065 ops/s
+
+# Run progress: 26,67% complete, ETA 00:18:24
+# Fork: 5 of 5
+# Warmup Iteration   1: 107179,523 ops/s
+# Warmup Iteration   2: 115774,306 ops/s
+# Warmup Iteration   3: 115616,642 ops/s
+# Warmup Iteration   4: 114759,343 ops/s
+# Warmup Iteration   5: 114816,461 ops/s
+Iteration   1: 114758,679 ops/s
+Iteration   2: 113859,103 ops/s
+Iteration   3: 113825,495 ops/s
+Iteration   4: 114232,947 ops/s
+Iteration   5: 114788,276 ops/s
+
+
+Result "ua.vladaxon.lserializerjmh.SerializerBenchmark.testJavaIO":
+  113706,984 ±(99.9%) 1437,349 ops/s [Average]
+  (min, avg, max) = (111108,496, 113706,984, 117041,887), stdev = 1918,820
+  CI (99.9%): [112269,634, 115144,333] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jre1.8.0_161\bin\java.exe
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ua.vladaxon.lserializerjmh.SerializerBenchmark.testKryo
+
+# Run progress: 33,33% complete, ETA 00:16:44
+# Fork: 1 of 5
+# Warmup Iteration   1: 50114,491 ops/s
+# Warmup Iteration   2: 53400,318 ops/s
+# Warmup Iteration   3: 53941,201 ops/s
+# Warmup Iteration   4: 53919,185 ops/s
+# Warmup Iteration   5: 53731,840 ops/s
+Iteration   1: 53884,702 ops/s
+Iteration   2: 53793,040 ops/s
+Iteration   3: 53342,645 ops/s
+Iteration   4: 53495,803 ops/s
+Iteration   5: 52950,978 ops/s
+
+# Run progress: 40,00% complete, ETA 00:15:03
+# Fork: 2 of 5
+# Warmup Iteration   1: 51892,764 ops/s
+# Warmup Iteration   2: 54242,376 ops/s
+# Warmup Iteration   3: 53645,932 ops/s
+# Warmup Iteration   4: 53706,748 ops/s
+# Warmup Iteration   5: 53663,371 ops/s
+Iteration   1: 53832,598 ops/s
+Iteration   2: 53666,788 ops/s
+Iteration   3: 53752,734 ops/s
+Iteration   4: 53596,777 ops/s
+Iteration   5: 53478,365 ops/s
+
+# Run progress: 46,67% complete, ETA 00:13:23
+# Fork: 3 of 5
+# Warmup Iteration   1: 52451,433 ops/s
+# Warmup Iteration   2: 54327,951 ops/s
+# Warmup Iteration   3: 54637,072 ops/s
+# Warmup Iteration   4: 54870,509 ops/s
+# Warmup Iteration   5: 54797,670 ops/s
+Iteration   1: 54509,779 ops/s
+Iteration   2: 54471,331 ops/s
+Iteration   3: 54453,965 ops/s
+Iteration   4: 54473,491 ops/s
+Iteration   5: 53688,295 ops/s
+
+# Run progress: 53,33% complete, ETA 00:11:42
+# Fork: 4 of 5
+# Warmup Iteration   1: 55026,044 ops/s
+# Warmup Iteration   2: 58245,049 ops/s
+# Warmup Iteration   3: 58308,055 ops/s
+# Warmup Iteration   4: 58272,261 ops/s
+# Warmup Iteration   5: 58103,855 ops/s
+Iteration   1: 58249,903 ops/s
+Iteration   2: 58217,301 ops/s
+Iteration   3: 57994,306 ops/s
+Iteration   4: 58305,396 ops/s
+Iteration   5: 58253,055 ops/s
+
+# Run progress: 60,00% complete, ETA 00:10:02
+# Fork: 5 of 5
+# Warmup Iteration   1: 51392,458 ops/s
+# Warmup Iteration   2: 54066,535 ops/s
+# Warmup Iteration   3: 54394,469 ops/s
+# Warmup Iteration   4: 54163,141 ops/s
+# Warmup Iteration   5: 54269,737 ops/s
+Iteration   1: 54088,868 ops/s
+Iteration   2: 53954,017 ops/s
+Iteration   3: 54126,871 ops/s
+Iteration   4: 54347,318 ops/s
+Iteration   5: 54239,270 ops/s
+
+
+Result "ua.vladaxon.lserializerjmh.SerializerBenchmark.testKryo":
+  54766,704 ±(99.9%) 1345,410 ops/s [Average]
+  (min, avg, max) = (52950,978, 54766,704, 58305,396), stdev = 1796,085
+  CI (99.9%): [53421,293, 56112,114] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jre1.8.0_161\bin\java.exe
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ua.vladaxon.lserializerjmh.SerializerBenchmark.testLSerializer
+
+# Run progress: 66,67% complete, ETA 00:08:22
+# Fork: 1 of 5
+# Warmup Iteration   1: 3246,868 ops/s
+# Warmup Iteration   2: 3413,328 ops/s
+# Warmup Iteration   3: 3422,766 ops/s
+# Warmup Iteration   4: 3395,651 ops/s
+# Warmup Iteration   5: 3427,844 ops/s
+Iteration   1: 3411,665 ops/s
+Iteration   2: 3426,606 ops/s
+Iteration   3: 3418,661 ops/s
+Iteration   4: 3402,110 ops/s
+Iteration   5: 3417,110 ops/s
+
+# Run progress: 73,33% complete, ETA 00:06:41
+# Fork: 2 of 5
+# Warmup Iteration   1: 3274,503 ops/s
+# Warmup Iteration   2: 3444,526 ops/s
+# Warmup Iteration   3: 3457,368 ops/s
+# Warmup Iteration   4: 3454,242 ops/s
+# Warmup Iteration   5: 3466,855 ops/s
+Iteration   1: 3459,857 ops/s
+Iteration   2: 3467,912 ops/s
+Iteration   3: 3433,721 ops/s
+Iteration   4: 3459,290 ops/s
+Iteration   5: 3467,213 ops/s
+
+# Run progress: 80,00% complete, ETA 00:05:01
+# Fork: 3 of 5
+# Warmup Iteration   1: 3249,514 ops/s
+# Warmup Iteration   2: 3442,462 ops/s
+# Warmup Iteration   3: 3453,977 ops/s
+# Warmup Iteration   4: 3434,565 ops/s
+# Warmup Iteration   5: 3459,015 ops/s
+Iteration   1: 3447,237 ops/s
+Iteration   2: 3438,534 ops/s
+Iteration   3: 3446,024 ops/s
+Iteration   4: 3442,457 ops/s
+Iteration   5: 3449,064 ops/s
+
+# Run progress: 86,67% complete, ETA 00:03:20
+# Fork: 4 of 5
+# Warmup Iteration   1: 3261,575 ops/s
+# Warmup Iteration   2: 3425,887 ops/s
+# Warmup Iteration   3: 3426,959 ops/s
+# Warmup Iteration   4: 3428,015 ops/s
+# Warmup Iteration   5: 3440,003 ops/s
+Iteration   1: 3428,016 ops/s
+Iteration   2: 3434,075 ops/s
+Iteration   3: 3433,441 ops/s
+Iteration   4: 3429,395 ops/s
+Iteration   5: 3375,086 ops/s
+
+# Run progress: 93,33% complete, ETA 00:01:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 3221,036 ops/s
+# Warmup Iteration   2: 3380,055 ops/s
+# Warmup Iteration   3: 3385,117 ops/s
+# Warmup Iteration   4: 3380,289 ops/s
+# Warmup Iteration   5: 3405,455 ops/s
+Iteration   1: 3450,576 ops/s
+Iteration   2: 3406,421 ops/s
+Iteration   3: 3395,846 ops/s
+Iteration   4: 3400,384 ops/s
+Iteration   5: 3408,095 ops/s
+
+
+Result "ua.vladaxon.lserializerjmh.SerializerBenchmark.testLSerializer":
+  3429,952 ±(99.9%) 17,898 ops/s [Average]
+  (min, avg, max) = (3375,086, 3429,952, 3467,912), stdev = 23,894
+  CI (99.9%): [3412,053, 3447,850] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:25:06
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                             Mode  Cnt       Score      Error  Units
+SerializerBenchmark.testJavaIO       thrpt   25  113706,984 ± 1437,349  ops/s
+SerializerBenchmark.testKryo         thrpt   25   54766,704 ± 1345,410  ops/s
+SerializerBenchmark.testLSerializer  thrpt   25    3429,952 ±   17,898  ops/s
